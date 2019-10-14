@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 
 /**Import of components */
 import Router from './components/Router'
