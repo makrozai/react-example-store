@@ -1,10 +1,17 @@
 import React, { Component } from 'react'
 
 class Product extends Component {
-  state = {  }
   render() { 
+    let {imagen, nombre, precio, id} = this.props.data
+
     return (
-      <h4>product item</h4>
+      <li>
+        <img 
+          src={`img/${imagen}.png`} alt={nombre}
+        />
+        <p>{nombre} <span> $ {precio}</span></p>
+        <a href="#!">Más información</a>
+      </li>
     )
   }
 }
