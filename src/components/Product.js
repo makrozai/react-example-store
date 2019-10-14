@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Link } from 'react-router-dom'
 
 class Product extends Component {
   render() { 
@@ -10,7 +11,7 @@ class Product extends Component {
           src={`img/${imagen}.png`} alt={nombre}
         />
         <p>{nombre} <span> $ {precio}</span></p>
-        <a href="#!">Más información</a>
+        <Link to={`/product/${id}`}>Más información</Link>
       </li>
     )
   }
