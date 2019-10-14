@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom'
 
 import StartPage from './StartPage'
 import AboutPage from './AboutPage'
+import ErrorBase from './ErrorBase'
 
 class Router extends Component {
   render() { 
@@ -10,7 +11,8 @@ class Router extends Component {
       <BrowserRouter>
         <Switch>
           <Route exact path="/" component={StartPage} /> 
-          <Route exact path="/about" component={AboutPage} /> 
+          <Route exact path="/about" component={AboutPage} />
+          <Route component={ErrorBase} />
         </Switch>
       </BrowserRouter>
      );

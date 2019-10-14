@@ -4,7 +4,7 @@ class AboutPage extends Component {
   state = {  }
   render() { 
     return ( 
-      <h1>from AboutPage</h1>
+      <h1>from About Page</h1>
     );
   }
 }
