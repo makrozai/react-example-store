@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-import './AboutPage.css'
+import '../assets/scss/AboutPage.scss'
 
 class AboutPage extends Component {
   state = {  }

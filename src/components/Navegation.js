@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { NavLink } from 'react-router-dom'
 
-import './Navegation.css'
+import '../assets/scss/Navegation.scss'
 
 class Navegation extends Component {
   state = {  }

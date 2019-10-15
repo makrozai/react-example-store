@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 
 /** import of assets */
-import './ProductSingle.css'
+import '../assets/scss/ProductSingle.scss'
 
 class ProductSingle extends Component {
   state = {  }

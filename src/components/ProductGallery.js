@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 import Product from './Product'
 
 /** import of assets */
-import './ProductGallery.css'
+import '../assets/scss/ProductGallery.scss'
 
 class ProductGallery extends Component {
   state = {  }

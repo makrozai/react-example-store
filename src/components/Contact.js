@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-import './Contact.css'
+import '../assets/scss/Contact.scss'
 
 class Contact extends Component {
   state = {  }
