@@ -4,6 +4,7 @@ import React from 'react'
 import Router from './components/Router'
 
 function App() {
+  console.log(process.env.REACT_APP_NOT_SECRET_CODE)
   return (
     <div className="contenedor">
       <Router />
